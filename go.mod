@@ -1,3 +1,3 @@
-module github.com/sonatype-nexus-community/gonexus
+module github.com/tperka-catalogicsoftware/gonexus
 
 go 1.12

@@ -24,6 +24,7 @@ type RepositoryItemAsset struct {
 	Repository  string                       `json:"repository"`
 	Format      string                       `json:"format"`
 	Checksum    repositoryItemAssetsChecksum `json:"checksum"`
+	FileSize    int                          `json:"fileSize"`
 }
 
 type listAssetsResponse struct {
